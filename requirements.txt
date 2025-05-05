@@ -10,3 +10,4 @@ python-dotenv
 langchain_openai
 pymupdf
 streamlit
+langchain_huggingface

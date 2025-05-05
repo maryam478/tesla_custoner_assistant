@@ -45,7 +45,7 @@ class Chunker:
 
 
 def load_pdf_text(pdf_path):
-    loader = PyMuPDFLoader("Owners_Manual.pdf")
+    loader = PyMuPDFLoader("src/Owners_Manual.pdf")
     pages = loader.load()
     return " ".join([page.page_content for page in pages])
 
@@ -67,7 +67,9 @@ def build_qa_chain(vectorstore):
 
 if __name__ == "__main__":
     # === Step 1: Load Tesla manual PDF ===
-    pdf_path = "Owners_Manual.pdf"  # <- Update this path if needed
+    # pdf_path = "Owners_Manual.pdf"  # <- Update this path if needed
+    pdf_path = "src/Owners_Manual.pdf"
+
     print("Loading PDF...")
     all_text = load_pdf_text(pdf_path)
 

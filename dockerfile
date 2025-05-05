@@ -11,6 +11,7 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy the source code
 COPY src/ ./src
 
+
 # Expose the Streamlit port
 EXPOSE 8501
 

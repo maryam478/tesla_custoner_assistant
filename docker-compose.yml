@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  tesla_chatbot:
+    build: .
+    ports:
+      - "8502:8501"
+    env_file:
+      - .env
