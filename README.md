@@ -6,4 +6,3 @@ some questions that you can ask
 2.How does frunk work?
 3.How long does it take for it to charge?
 4.How fast does it take to reach 90mph
-5.Does Tesla fart?
